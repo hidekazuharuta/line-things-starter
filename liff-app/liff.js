@@ -185,7 +185,7 @@ function liffConnectToDevice(device) {
 
         // Device disconnect callback
         const disconnectCallback = () => {
-            console.log("Catch disconnect!!!");
+            console.log('disconnect!!!');
             // Show status disconnected
             uiToggleDeviceConnected(false);
 
